@@ -1,0 +1,8 @@
+#도커 처리할때 무시할 파일목록
+
+node_modules
+
+.gitignore
+.dockerignore
+.git
+Dockignore
