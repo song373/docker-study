@@ -26,3 +26,5 @@ Redis 컨테이너를 실행하되,
 컨테이너 이름은 myredis,
 환경변수로 비밀번호(REDIS_PASSWORD=secret123)를 설정한다.
 호스트의 6379 포트를 컨테이너의 6379 포트로 연결하고 백그라운드에서 실행해라.
+
+docker run --name myredis -e REDIS_PASSWORD=secret123 -p 6379:6379 -d redis
